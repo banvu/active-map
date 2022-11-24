@@ -6,7 +6,6 @@ import store from "./store";
 import "./plugins";
 // import * as VeeValidate from "vee-validate";
 
-import VueComposition from "@vue/composition-api";
 import i18n from "./locales/i18n";
 import DatetimePicker from "vuetify-datetime-picker";
 // import "chartjs-adapter-date-fns";
@@ -17,7 +16,6 @@ import "@andresouzaabreu/vue-data-table/dist/DataTable.css";
 Vue.config.productionTip = false;
 // Vue.use(VeeValidate);
 
-Vue.use(VueComposition);
 Vue.use(DatetimePicker);
 Vue.component("data-table", DataTable);
 
