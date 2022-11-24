@@ -1,0 +1,87 @@
+{
+  "name": "active-map",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@andresouzaabreu/vue-data-table": "^3.3.3",
+    "@carbon/charts": "^1.6.1",
+    "@carbon/charts-vue": "^1.6.1",
+    "@carbon/styles": "^1.17.0",
+    "@geoman-io/leaflet-geoman-free": "^2.13.1",
+    "@mdi/js": "^7.0.96",
+    "chart.js": "^3.9.1",
+    "core-js": "^3.8.3",
+    "d3": "^7.6.1",
+    "date-fns": "^2.29.3",
+    "export-from-json": "^1.4.0",
+    "leaflet": "^1.9.0",
+    "leaflet-draw": "^1.0.4",
+    "leaflet-fullscreen": "^1.0.2",
+    "leaflet-minimap": "^3.6.1",
+    "leaflet-rastercoords": "^1.0.5",
+    "leaflet.heat": "^0.2.0",
+    "leaflet.marker.slideto": "^0.3.0",
+    "mapbox-gl": "^0.53.1",
+    "moment": "^2.29.4",
+    "numeral": "^2.0.6",
+    "tailwindcss": "^3.1.8",
+    "unity-webgl": "^3.1.3",
+    "vee-validate": "^3.4.5",
+    "vue": "^2.6.14",
+    "vue-chartjs": "^4.1.2",
+    "vue-i18n": "^8.22.2",
+    "vue-json-to-csv": "^1.1.8",
+    "vue-leaflet-minimap": "^1.0.8",
+    "vue-line-clamp": "^1.3.2",
+    "vue-mapbox": "^0.4.1",
+    "vue-router": "^3.5.1",
+    "vue2-leaflet": "^2.7.1",
+    "vue2-leaflet-axesgrid": "^1.1.0",
+    "vue2-leaflet-draw-toolbar": "^0.1.1",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.6.0",
+    "vuetify-datetime-picker": "^2.1.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/composition-api": "^1.7.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
