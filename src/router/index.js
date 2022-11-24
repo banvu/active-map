@@ -40,25 +40,7 @@ const routes = [
             "@/views/project/Project"
           ),
       },
-      {
-        path: "/sum-air",
-        name: "Sum Air",
-        component: () =>
-          import(
-            /* webpackChunkName: "views-grid-list-page" */
-            "@/views/project/SumAir"
-          ),
-      },
 
-      {
-        path: "/account-settings",
-        name: "Account Setting",
-        component: () =>
-          import(
-            /* webpackChunkName: "views-breakpoints" */
-            "@/views/account-settings/AccountSettings"
-          ),
-      },
       {
         path: "/real-time-map",
         name: "Real Time Map",
@@ -95,33 +77,7 @@ const routes = [
       //       "@/views/table/LineChart"
       //     ),
       // },
-      {
-        path: "/sum-air/iot-core",
-        name: "IoT Core",
-        component: () =>
-          import(
-            /* webpackChunkName: "views-validation-forms" */
-            "@/views/sumair/IoTCore"
-          ),
-      },
-      {
-        path: "/sum-air/sum-air",
-        name: "Sum Air",
-        component: () =>
-          import(
-            /* webpackChunkName: "views-app-forms" */
-            "@/views/sumair/sumairsub/SumAir"
-          ),
-      },
-      {
-        path: "/sum-air/sum-air/sum-area",
-        name: "Sum Air",
-        component: () =>
-          import(
-            /* webpackChunkName: "views-app-forms" */
-            "@/views/sumair/sumairsub/Area_1"
-          ),
-      },
+
       {
         path: "/buttons",
         name: "Buttons",

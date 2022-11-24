@@ -2,7 +2,6 @@ const state = {
   drawer: false,
   gradient: "rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)",
   items: [
-    { title: "Account Settings", icon: "mdi-account", to: "/account-settings" },
     { title: "Dashboard", icon: "mdi-view-dashboard", to: "/" },
     // { title: 'Pages', icon: 'mdi-menu', items: [
     {
@@ -15,7 +14,7 @@ const state = {
     },
     //   { title: 'ProductList', to: '/page/product-list' },
     // ]},
-    { title: "Project", icon: "mdi-puzzle", to: "/project" },
+
     {
       title: "Data Analytics",
       icon: "mdi-google-analytics",
