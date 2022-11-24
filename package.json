@@ -9,9 +9,6 @@
   },
   "dependencies": {
     "@andresouzaabreu/vue-data-table": "^3.3.3",
-    "@carbon/charts": "^1.6.1",
-    "@carbon/charts-vue": "^1.6.1",
-    "@carbon/styles": "^1.17.0",
     "@geoman-io/leaflet-geoman-free": "^2.13.1",
     "@mdi/js": "^7.0.96",
     "chart.js": "^3.9.1",
